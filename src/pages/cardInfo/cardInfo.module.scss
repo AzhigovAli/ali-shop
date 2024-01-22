@@ -1,0 +1,132 @@
+.cardInfo {
+  padding: 34px;
+  border-radius: 53px;
+  background-color: #fff;
+}
+
+.cardBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 604px;
+  padding: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.142);
+  border-radius: 80px;
+}
+
+.productPrice {
+  border-radius: 40px;
+  width: 401px;
+  height: 406px;
+  border: 1px solid rgba(0, 0, 0, 0.142);
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.noDiscount {
+  color: grey;
+  text-decoration: line-through;
+  font-weight: 200;
+}
+
+.addToCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.addBtn {
+  width: 80%;
+  height: 66px;
+  border-radius: 20px;
+  background-color: #9fd4d8;
+  border: 0;
+  color: #fff;
+  font-size: 23px;
+  font-family: Nunito;
+  font-weight: 800;
+
+  &:hover {
+    border: 3px solid #9fd4d8;
+    color: #9fd4d8;
+    background-color: #fff;
+    font-weight: 800;
+  }
+}
+
+.payNow {
+  width: 80%;
+  height: 66px;
+  border-radius: 20px;
+  background-color: #9fd4d8;
+  border: 0;
+  color: #fff;
+  font-size: 23px;
+  font-family: Nunito;
+  font-weight: 800;
+
+  &:hover {
+    border: 3px solid #9fd4d8;
+    color: #9fd4d8;
+    background-color: #fff;
+    font-weight: 800;
+  }
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 20px;
+}
+
+.describe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+  line-height: 5px;
+  width: 50%;
+  height: 205px;
+  border: 1px solid rgba(0, 0, 0, 0.142);
+  margin-top: 50px;
+  border-radius: 25px;
+}
+
+.line {
+  border-bottom: 1px dashed grey;
+}
+
+.describeBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.review {
+  color: grey;
+  font-weight: 300;
+}
+
+.point {
+  color: grey;
+}
+
+.rate {
+  color: rgba(255, 170, 0, 1);
+  font-size: 15;
+}
